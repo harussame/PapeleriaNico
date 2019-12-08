@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Papeleria</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<nav>
+		  <div>Logo</li>
+	</nav>
+	<div id="formFunc">
+		<form name="formLogin" submit="php/login.php">
+			<div id="formLine">
+			  <label>Documento</label>
+			  <input id="document">
+			  <div id="errorDoc" class="error"></div>
+			</div>
+	    	<div id="formLine">
+			  <label>Nro. Funcionario</label>
+			  <input id="funcionario">
+			  <div id="errorFun" class="error"></div>
+			</div>
+			<div id="formLine">
+			  <label>Convenio</label>
+			  <select id="convenio"></select>
+			</div>
+			<button id="boton" class="button" type="submit">Aceptar</button>
+	      </form>
+	</div>
+</body>
+    <script src="./js/login.js"></script>
+</html>
