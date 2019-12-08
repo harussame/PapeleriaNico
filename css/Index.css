@@ -1,0 +1,65 @@
+body{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image: url("../img/crayons.jpg");
+	height: 100%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+nav{
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  z-index: 9999;
+	  width: 100%;
+	  height: 50px;
+	  background-color : white;
+}
+
+#formFunc {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  	background-color: rgba(255, 255, 255, 0.9);
+  	padding: 45px;
+}
+
+input{
+	  width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+    border: 1px solid grey;
+}
+
+.error {
+    color: red;
+    font-size: 9px;
+}
+
+.button{
+	 background-color: slateblue;
+	 color: white;
+	 width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	border: none;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	cursor: pointer;
+}
+
+.button:hover{
+	 background-color: blue;
+}
+
+#formLine{
+	margin: 5px;
+	padding: 5px;
+}
